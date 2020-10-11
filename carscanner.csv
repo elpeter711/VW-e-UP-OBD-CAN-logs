@@ -33,3 +33,6 @@ Phasenstrom Phase W;Motor I_Ph,W;223EFB;ShortSigned(A,B)/16;;;A;7E6
 Temperatur elektrische Maschine;Motor T;223E94;(A*256+B)/64;;;°C;7E6
 E-Maschine elektrische Leistung;Motor P_el;224656;ShortSigned(A,B)*16;;;W;7E6
 E-Maschine mechanische Leistung;Motor P_mech;224658;ShortSigned(A,B)*16;;;W;7E6
+Reichweite Kapazität;Kapacita kombi;2222E4;(A*256+B)/250;;;kW;714
+Zähler für Kilowattstunden Ladung;Celkove nabijanie;221E32;(ii*2^24+jj*2^16+kk*2^8+ll)/8583,073;;;kWh;7E5
+Zähler für Kilowattstunden Entladung;Celkove vybijanie;221E32;Signed(mm*2^24+nn*2^16+oo*2^8+pp)/8583,073;;;kWh;7E5
